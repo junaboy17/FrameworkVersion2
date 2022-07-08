@@ -1,0 +1,16 @@
+2022-07-08 15:14:04,060 - Selenium -INFO - Begin Test Class: TC_Organization_Location_Add_003
+2022-07-08 15:14:04,068 - Selenium -INFO - Fri Jul 08 15:14:04 EDT 2022
+2022-07-08 15:14:04,105 - Selenium -INFO - Begin Test : TC_Location_Add_StateUser_002
+2022-07-08 15:14:05,451 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 15:14:05,522 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Miah.Arif\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 15:14:05,647 - Selenium -INFO - ***********************************************Opening Up Chrome Browser***********************************************5
+2022-07-08 15:14:12,120 - Selenium -INFO - UI Browser settings - Configured wait, deleting all cookies, and Maximizing browser window settings
+2022-07-08 15:14:24,746 - Selenium -INFO - Using the new toggle on the add location screen, a newly created location can be automatically added to any active user in that loc's org who share a service pop with the new location
+2022-07-08 15:15:03,660 - Selenium -INFO - Adding Service Population
+2022-07-08 15:17:43,929 - Selenium -INFO - WebDriver failed to locate element on page after  5 attempts. Please Recheck locator & try again.
+2022-07-08 15:18:04,035 - Selenium -INFO - com.eisrem.AppUtils.SeleniumHelper.readElement(SeleniumHelper.java:2511)
+2022-07-08 15:18:04,036 - Selenium -INFO - com.eisrem.pageFactory.Organization.AdditionalOrgLocAccord.readAdditionalOrgLocFirstRowLocation(AdditionalOrgLocAccord.java:122)
+2022-07-08 15:18:04,036 - Selenium -INFO - com.eisrem.testCases.Module_Organization.TC_Organization_Location_Add_003.TC_Location_Add_StateUser_002(TC_Organization_Location_Add_003.java:74)
+2022-07-08 15:18:04,037 - Selenium -INFO - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-07-08 15:18:04,037 - Selenium -INFO - Unable to locate following xpath with in given time: //table[@id='addtnl-loc-picker-table']//tr[1]//td[2]'
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EISREM Test">
+
+	<listeners>
+		<listener class-name="com.eisrem.AppUtils.TestListeners"></listener>
+	</listeners>
+
+
+	<test name="Release2022">
+		<classes>
+						
+			<class name="com.eisrem.testCases.Release2022.TC_11786_End_Date_Relationship_Address" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_10435_End_Dated_Location_Identifer_Popup" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_10723_Test_Triggered_Pages_With_Popup" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11321_People_Classes_Special_Accommodations" />		
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11356_Sort_Question_Answers_Alpha" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11575_Pages_Questions_Answer_Disabled" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11627_Location_Identifier_Start_Date_Error_Msg" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11681_Org_Add_Identifier_Duplicate_Error_Message" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11799_Search_Location_ID" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11809_People_Add_Association_Org_Error_Message" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11850_Related_Question_Restriction" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11866_Submit_Type_Page_Without_Page_Error" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11903_Documents_End_Date_Restriction" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11905_Conducted_Type_Print_Button_Validation" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_11916_People_Diagnosis_Active_Entry" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12063_Org_Combobox_Restrict_By_SP" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12112_Document_Extension_Case_Insensitive" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12145_Conducted_Type_Score_Validation" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12167_Datepicker_Appears_Over_Elements" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12189_Document_Search_Conducted_Type" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12241_Prevent_Edit_Locked_Form_By_Role" />	
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12323_Location_Addresses_Auto_End_Date_SameType" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12350_End_Dated_Document_Disabled_Link_Message" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12354_People_OtherNames_Suffix_List_Page" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12386_Confirm_Inactive_Page_Data" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12402_End_Date_User_Dates_Before_Start" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12405_Organization_Users_Additional_Location_SP_Check" />
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12461_Referrals_Services_Add_Edit_View" />			
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12478_Admin_Edit_Start_Dates_CNDCTD_Type" /> 
+			<class name="com.eisrem.testCases.Release2022.TC_BHOPS_12479_Admin_Edit_Start_Dates_Association" />			
+		</classes>
+		
+
+	</test>
+
+</suite>
